@@ -156,17 +156,17 @@
 
     <div id="loader" class="fixed inset-0 z-50 bg-ambient-900 flex flex-col items-center justify-center">
         <!-- Lottie Placeholder for Loading -->
-        <div id="lottie-loader" class="w-32 h-32 opacity-70" data-lottie-path="./assets/lotties/loading.json"></div>
+        <div id="lottie-loader" class="w-32 h-32 opacity-70" data-lottie-path="/assets/lotties/loading.json"></div>
         <div class="mt-4 text-sm tracking-widest text-ambient-muted font-light animate-pulse">CARGANDO</div>
     </div>
 
-    <div id="lottie-bg-atmosphere" class="fixed inset-0 w-full h-full opacity-[0.03] pointer-events-none -z-10 mix-blend-screen" data-lottie-path="./assets/lotties/background-atmosphere.json"></div>
+    <div id="lottie-bg-atmosphere" class="fixed inset-0 w-full h-full opacity-[0.03] pointer-events-none -z-10 mix-blend-screen" data-lottie-path="/assets/lotties/background-atmosphere.json"></div>
 
     <nav class="fixed top-0 left-0 w-full z-40 px-6 py-4 md:px-12 bg-ambient-900/70 backdrop-blur-md border-b border-white/5 transition-all duration-300">
         <div class="max-w-7xl mx-auto flex justify-between items-center text-sm tracking-widest font-light uppercase">
             <div class="flex items-center gap-4 text-ambient-accent cursor-default">
                 <!-- Foto de perfil adaptativa (busca .jpg, .png, .svg, .webp, .jpeg, .gif en orden) -->
-                <img src="./assets/images/perfilpro1.jpg" onerror="tryNextStaticExtension(this, 'perfilpro1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-8 h-8 rounded-full bg-white/20\'></div>')" class="w-8 h-8 rounded-full object-cover grayscale">
+                <img src="/assets/images/perfilpro1.jpg" onerror="tryNextStaticExtension(this, 'perfilpro1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-8 h-8 rounded-full bg-white/20\'></div>')" class="w-8 h-8 rounded-full object-cover grayscale">
                 <span>Vorttis Portfolio</span>
             </div>
             <div class="flex gap-4 items-center">
@@ -180,7 +180,7 @@
     <main class="relative pt-32 pb-24 md:pt-48 px-6 md:px-12 max-w-7xl mx-auto min-h-screen">
         
         <!-- Ambient Lottie behind Hero -->
-        <div id="lottie-hero-bg" class="absolute top-0 right-0 w-full md:w-2/3 h-screen opacity-10 pointer-events-none -z-10 mix-blend-screen" data-lottie-path="./assets/lotties/hero-ambient.json"></div>
+        <div id="lottie-hero-bg" class="absolute top-0 right-0 w-full md:w-2/3 h-screen opacity-10 pointer-events-none -z-10 mix-blend-screen" data-lottie-path="/assets/lotties/hero-ambient.json"></div>
 
         <!-- HERO SECTION -->
         <section class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 mb-32 items-center">
@@ -196,7 +196,7 @@
             <div class="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
                 <div class="relative w-full max-w-xs md:max-w-sm aspect-[3/4] md:aspect-[4/5] rounded-sm overflow-hidden group shadow-2xl shadow-black/50">
                     <!-- Foto carnet adaptativa (busca .jpg, .png, .svg, .webp, .jpeg, .gif en orden) -->
-                    <img src="./assets/images/carnet1.jpg" onerror="tryNextStaticExtension(this, 'carnet1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-full h-full bg-black/40 border border-white/5\'></div>')" alt="Juan Francisco Caicedo" class="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000 ease-out" loading="lazy">
+                    <img src="/assets/images/carnet1.jpg" onerror="tryNextStaticExtension(this, 'carnet1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-full h-full bg-black/40 border border-white/5\'></div>')" alt="Juan Francisco Caicedo" class="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000 ease-out" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-ambient-900/60 to-transparent opacity-60 group-hover:opacity-20 transition-opacity duration-1000"></div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
             
             <!-- SECTION 1: MÁS SOBRE MÍ -->
             <section class="border-t border-white/10 pt-4 relative">
-                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="./assets/lotties/section-transition.json"></div>
+                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="/assets/lotties/section-transition.json"></div>
                 
                 <div class="accordion-header flex justify-between items-center py-6 group" onclick="toggleAccordion('sect-about', this)">
                     <h2 class="text-2xl md:text-3xl font-editorial tracking-wide" data-i18n="sec_about">Más sobre mí</h2>
@@ -236,7 +236,7 @@
 
                             <!-- Social Links -->
                             <div class="pt-10 mt-6 border-t border-white/10 flex flex-wrap items-center gap-8 relative">
-                                <div class="absolute -top-16 left-0 w-32 h-32 opacity-20 pointer-events-none mix-blend-screen" data-lottie-path="./assets/lotties/contact-accent.json"></div>
+                                <div class="absolute -top-16 left-0 w-32 h-32 opacity-20 pointer-events-none mix-blend-screen" data-lottie-path="/assets/lotties/contact-accent.json"></div>
                                 
                                 <a href="https://wa.me/593939406913" target="_blank" class="flex items-center gap-3 text-ambient-muted hover:text-white transition-all duration-500 group z-10">
                                     <div class="flex items-center justify-center p-3 border border-white/5 bg-white/5 rounded-full group-hover:bg-white/10 group-hover:border-white/20 transition-all shadow-lg">
@@ -262,7 +262,7 @@
                                     <!-- Discord Popover Profile -->
                                     <div id="discord-popover" class="absolute bottom-full left-0 mb-4 p-4 border border-white/10 bg-[#111318] rounded-md shadow-2xl opacity-0 pointer-events-none transition-all duration-500 translate-y-4 flex items-center gap-4 min-w-[220px] backdrop-blur-md">
                                         <!-- Discord Avatar adaptativo (busca .jpg, .png, .svg, .webp, .jpeg, .gif en orden) -->
-                                        <img src="./assets/images/perfilpro1.jpg" onerror="tryNextStaticExtension(this, 'perfilpro1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-12 h-12 rounded-full bg-white/5 border border-white/10\'></div>')" class="w-12 h-12 rounded-full object-cover border border-white/10">
+                                        <img src="/assets/images/perfilpro1.jpg" onerror="tryNextStaticExtension(this, 'perfilpro1', 'images', ['.png', '.svg', '.webp', '.jpeg', '.gif'], '<div class=\'w-12 h-12 rounded-full bg-white/5 border border-white/10\'></div>')" class="w-12 h-12 rounded-full object-cover border border-white/10">
                                         <div>
                                             <div class="text-[10px] tracking-widest text-ambient-muted uppercase mb-1">Añádeme en Discord</div>
                                             <div class="text-sm text-ambient-accent font-medium tracking-wide">vorttis</div>
@@ -276,7 +276,7 @@
             </section>
 
             <section class="border-t border-white/10 pt-4 relative">
-                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="./assets/lotties/section-transition.json"></div>
+                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="/assets/lotties/section-transition.json"></div>
                 
                 <div class="accordion-header flex justify-between items-center py-6 group" onclick="toggleAccordion('sect-trabajos', this)">
                     <h2 class="text-2xl md:text-3xl font-editorial tracking-wide" data-i18n="sec_work">Trabajos y Experiencia</h2>
@@ -361,7 +361,7 @@
             </section>
 
             <section class="border-t border-white/10 pt-4 relative">
-                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="./assets/lotties/section-transition.json"></div>
+                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="/assets/lotties/section-transition.json"></div>
                 
                 <div class="accordion-header flex justify-between items-center py-6 group" onclick="toggleAccordion('sect-habilidades', this)">
                     <h2 class="text-2xl md:text-3xl font-editorial tracking-wide" data-i18n="sec_skills">Habilidades</h2>
@@ -416,7 +416,7 @@
             </section>
 
             <section class="border-t border-b border-white/10 py-4 mb-24 relative">
-                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="./assets/lotties/section-transition.json"></div>
+                <div class="absolute right-12 top-6 w-12 h-12 opacity-20 pointer-events-none" data-lottie-path="/assets/lotties/section-transition.json"></div>
                 
                 <div class="accordion-header flex justify-between items-center py-6 group" onclick="toggleAccordion('sect-estudios', this)">
                     <h2 class="text-2xl md:text-3xl font-editorial tracking-wide" data-i18n="sec_studies">Estudios</h2>
@@ -528,23 +528,18 @@
                 
                 if (!wrapper) continue;
                 
-                let i = 1;
-                let foundMedia = true;
                 let hasAddedItems = false;
-                
-                // Keep testing sequential numbers until no matching files are found
-                while (foundMedia && i <= 20) { // Limit to 20 per project for safety
-                    foundMedia = false;
-                    
+
+                // Scan all numbers 1-20, do not stop if a number is missing
+                for (let i = 1; i <= 20; i++) {
                     for (const { ext, isVideo } of extensions) {
                         const folder = isVideo ? 'videos' : 'images';
-                        const url = `/assets/${folder}/${prefix}${i}${ext}`;
-                        
+                        const url = `./assets/${folder}/${prefix}${i}${ext}`;
+
                         if (await checkMediaExists(url, isVideo)) {
                             addMediaToDOM(wrapper, url, isVideo, type);
-                            foundMedia = true;
                             hasAddedItems = true;
-                            break; // Stop checking other extensions if one is found for this number
+                            break; // Stop checking other extensions for this indexensions if one is found for this number
                         }
                     }
                     
